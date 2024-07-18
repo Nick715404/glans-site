@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Сайт-приглашение на свадьбу Никита и Татьяны Симоновых",
   openGraph: {
     type: 'website',
-    url: '/',
+    url: 'https://glans-site-9l6jmoykj-nikita-simonovs-projects.vercel.app',
     title: 'Свадьба Никиты и Татьяны',
     description: 'Сайт-приглашение на свадьбу Никита и Татьяны Симоновых',
     images: [
