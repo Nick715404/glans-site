@@ -13,7 +13,7 @@ export const Header = () => {
         </MotionBox>
 
         <div className="relative mb-24 md:mb-16">
-          <MotionBox delay={0.2} className="flex flex-col justify-center items-center text-center text-10xl leading-normal md:text-[50px]">
+          <MotionBox delay={0.1} className="flex flex-col justify-center items-center text-center text-10xl leading-normal md:text-[50px]">
             <Image
               style={{ height: 'auto' }}
               className="md:w-[193px] h-auto mb-5"
@@ -41,9 +41,9 @@ export const Header = () => {
           </MotionBox>
         </div>
 
-        <div className="text-center text-4xl mb-44 md:text-lg md:mb-[50px] leading-[100%]">
+        <MotionBox delay={0.3} className="text-center text-4xl mb-44 md:text-lg md:mb-[50px] leading-[100%]">
           <p>Скоро наступит очень <br /> трепетный и важный <br /> для нас день</p>
-        </div>
+        </MotionBox>
 
       </div>
     </header>

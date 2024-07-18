@@ -2,6 +2,7 @@
 import React from 'react';
 import { useCountdown } from './useCounter';
 import { cinzel } from '@/constants';
+import { MotionBox } from '../MotionBox';
 
 interface CountdownProps { targetDate: string, };
 
@@ -11,31 +12,31 @@ export const Countdown = ({ targetDate }: CountdownProps) => {
   return (
     <div className='flex items-center gap-[10px] md:gap-[6px]'>
 
-      <div className="counter-item">
+      <MotionBox delay={0.25} className="counter-item">
         <div className={`counter-number ${cinzel.className}`}>{days}</div>
         <span className='counter-text'>Дней</span>
-      </div>
+      </MotionBox>
 
       <span className='quote'>:</span>
 
-      <div className="counter-item">
+      <MotionBox delay={0.35} className="counter-item">
         <div className={`counter-number ${cinzel.className}`}>{hours}</div>
         <span className='counter-text'>часов</span>
-      </div>
+      </MotionBox>
 
       <span className='quote'>:</span>
 
-      <div className="counter-item">
+      <MotionBox delay={0.45} className="counter-item">
         <div className={`counter-number ${cinzel.className}`}>{minutes}</div>
         <span className='counter-text'>минут</span>
-      </div>
+      </MotionBox>
 
       <span className='quote'>:</span>
 
-      <div className="counter-item">
+      <MotionBox delay={0.55} className="counter-item">
         <div className={`counter-number ${cinzel.className}`}>{seconds}</div>
         <span className='counter-text'>секунд</span>
-      </div>
+      </MotionBox>
 
     </div>
   );

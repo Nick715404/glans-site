@@ -1,9 +1,10 @@
 import { cinzel, mainInfo } from "@/constants";
 import Image from "next/image";
+import { MotionBox } from "./MotionBox";
 
 export const Listing = () => {
   return (
-    <div className="mb-36">
+    <MotionBox delay={0.2} className="mb-36">
       <ul>
         <li className="list-item">
           <div className="list-title">
@@ -20,7 +21,7 @@ export const Listing = () => {
           </div>
           <div className="flex flex-row gap-[20px] md:flex-col md:gap-0">
             <span className="list-descritption">ул. Красноармейская <span className={cinzel.className}>57</span></span>
-            <div className="flex flex-col items-end mt-[16px] md:mt-[0] md:items-start md:ml-[32px] list-children">
+            <div className="flex flex-col items-end md:items-start md:ml-[32px] list-children">
               <span className="list-children-item">Сбор гостей в <span className={cinzel.className}>{mainInfo.guestsTime}</span></span>
               <span className="list-children-item">
                 Начало в <span className={cinzel.className}>{mainInfo.startOfWedding}</span>
@@ -30,6 +31,6 @@ export const Listing = () => {
         </li>
 
       </ul>
-    </div>
+    </MotionBox>
   )
 }
