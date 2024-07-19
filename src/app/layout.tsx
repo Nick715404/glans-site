@@ -43,6 +43,7 @@ export default function RootLayout({ children, }: RootLayoutProps) {
       <body className={`relative overflow-hidden ${forum.className} body flex flex-col min-h-dvh text-accent`}>
         <Header />
         {children}
+        <Footer />
         <Flowers />
         <MusicPlayer />
       </body>
