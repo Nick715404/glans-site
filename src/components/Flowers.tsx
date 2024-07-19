@@ -25,14 +25,14 @@ export const Flowers = () => {
       <div className="absolute top-[43rem] -right-[18rem] scale-[2] pointer-events-none z-10 2xl:-right-[25rem] xl:scale-[1.7] md:scale-[0.6] md:top-[30rem] md:-right-[20rem]">
         <Image src="/images/flowers/7.webp" priority alt="Цветок" width={850} height={2186}></Image>
       </div>
-      <div className="absolute -bottom-[2rem] -right-[28rem] pointer-events-none scale-[1.45] z-10 2xl:scale-[1.2] xl:scale-[0.7] md:scale-[0.5] md:-top-[26rem] md:-right-[34rem]">
+      {/* <div className="absolute -bottom-[2rem] -right-[28rem] pointer-events-none scale-[1.45] z-10 2xl:scale-[1.2] xl:scale-[0.7] md:scale-[0.5] md:-top-[26rem] md:-right-[34rem]">
         <Image src="/images/flowers/8.webp" priority alt="Цветок" width={1108} height={1344}></Image>
-      </div>
-      <div className="absolute -bottom-[5rem] -right-[0rem] pointer-events-none scale-[0.8] z-10 2xl:scale-[1] xl:scale-[0.7] md:scale-[1.5] md:-bottom-[1rem] md:-right-[5rem]">
+      </div> */}
+      {/* <div className="absolute -bottom-[5rem] -right-[0rem] pointer-events-none scale-[0.8] z-10 2xl:scale-[1] xl:scale-[0.7] md:scale-[1.5] md:-bottom-[1rem] md:-right-[5rem]">
         <Image src="/images/flowers/9.webp" priority alt="Цветок" width={1108} height={1344}></Image>
-      </div>
+      </div> */}
 
-      <div className="absolute -bottom-[5rem] -right-[0rem] pointer-events-none scale-[0.8] z-10 2xl:scale-[1] xl:scale-[0.7] md:scale-[1.5] md:-bottom-[1rem] md:-right-[5rem]">
+      <div className="absolute -bottom-[5rem] -right-[0rem] pointer-events-none scale-[0.8] z-10 2xl:scale-[1] xl:scale-[0.85] xl:-bottom-[10rem] xl:-right-[8rem] md:scale-[1.5] md:-bottom-[1rem] md:-right-[5rem]">
         <Image src="/images/flowers/9.webp" priority alt="Цветок" width={1108} height={1344}></Image>
       </div>
 
